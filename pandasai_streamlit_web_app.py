@@ -19,7 +19,11 @@ import os
 
 # Import PandasAI and initialize agents
 from pandasai import SmartDataframe
-from pandasai.agent import SemanticAgent, JudgeAgent
+
+#from pandasai import PandasAI
+from pandasai.agent.agent import Agent
+from pandasai.ee.agents.judge_agent import JudgeAgent
+from pandasai.ee.agents.semantic_agent import SemanticAgent
 
 # Initialize Streamlit app
 st.title("Enhanced PandasAI Streamlit App")
