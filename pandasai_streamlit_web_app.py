@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # Install necessary packages
-!pip install pandasai streamlit markdown2 plotly
+#!pip install pandasai streamlit markdown2 plotly
 
 # Import necessary libraries
 import streamlit as st
