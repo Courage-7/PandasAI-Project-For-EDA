@@ -11,7 +11,7 @@ Original file is located at
 
 import pandas as pd
 import streamlit as st
-from pandasai import PandasAI
+#from pandasai import PandasAI
 from pandasai.agent.agent import Agent
 from pandasai.ee.agents.semantic_agent import SemanticAgent
 from pandasai import SmartDataframe
