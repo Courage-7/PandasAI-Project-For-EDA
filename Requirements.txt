@@ -1,6 +1,5 @@
 pandasai
 streamlit
-markdown2
 plotly
 pandas
 matplotlib
